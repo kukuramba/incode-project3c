@@ -1,0 +1,9 @@
+CREATE DATABASE mrCoffeeDB
+
+CREATE TABLE schedule (
+	id SERIAL PRIMARY KEY,
+	user_id INTEGER NOT NULL,
+	day INTEGER NOT NULL,
+	start_at TIME NOT NULL,
+	end_at TIME NOT NULL
+)
